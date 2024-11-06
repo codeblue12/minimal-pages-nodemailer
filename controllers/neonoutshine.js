@@ -8,8 +8,8 @@ const transporter = nodemailer.createTransport({
   logger: true,
   debug: true,
   auth: {
-    user: "info@neonoutshine.com",
-    pass: "yfyw xpqi pfmo itnh",
+    user: "neon@neonoutshine.com",
+    pass: "ccnd bcdo hhxy nqpg",
   },
 });
 
@@ -17,7 +17,7 @@ const neonoutshine = async (req, res) => {
   try {
     const nameInUpperCase = req.body.name.toUpperCase();
     let mailOptions = {
-      from: "NeonOutShine <info@neonoutshine.com>",
+      from: "NeonOutShine <neon@neonoutshine.com>",
       to: req.body.email,
       subject: `${nameInUpperCase}, Thank You for Requesting a Custom Signage Quote!`,
       html: ` <p>Dear ${nameInUpperCase},</p>
@@ -61,7 +61,7 @@ const neonoutshine = async (req, res) => {
       <br /><b>Sales Support: 332-250-4309</b>
     </p>
 
-      Best Regards.
+      Best Regards. <br/><br/>
       <div>
     <div>
         <table cellpadding="0" width="500" style="border-collapse:collapse;font-size:11.5px">

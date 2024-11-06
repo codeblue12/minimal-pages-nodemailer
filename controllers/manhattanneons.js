@@ -8,8 +8,8 @@ const transporter = nodemailer.createTransport({
   logger: true,
   debug: true,
   auth: {
-    user: "info@manhattanneons.com",
-    pass: "fvqz tdko mtch jyah",
+    user: "neon@manhattanneons.com",
+    pass: "dsex cuhd kxqi vvou",
   },
 });
 
@@ -17,7 +17,7 @@ const manhattanneons = async (req, res) => {
   try {
     const nameInUpperCase = req.body.name.toUpperCase();
     let mailOptions = {
-      from: "ManhattanNeons <info@manhattanneons.com>",
+      from: "ManhattanNeons <neon@manhattanneons.com>",
       to: req.body.email,
       subject: `${nameInUpperCase}, Thank You for Requesting a Custom Signage Quote!`,
       html: ` <p>Dear ${nameInUpperCase},</p>
@@ -64,7 +64,7 @@ const manhattanneons = async (req, res) => {
       <br /><b>Sales Support: 332-250-4309</b>
     </p>
     
-      Best Regards.
+      Best Regards. <br/><br/>
       <div>
         <div>
             <table cellpadding="0" width="500" style="border-collapse:collapse;font-size:11.5px">
@@ -93,7 +93,7 @@ const manhattanneons = async (req, res) => {
                                         </tr>
                                         <tr>
                                             <td style="margin:0.1px;padding-top:3px;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001">
-                                                <span style="color:#000000;font-weight:600">Email:&nbsp;</span><a href="mailto:info@manhattanneons.com" style="color:#000001;text-decoration:none;font-family:Arial,Helvetica,sans-serif" target="_blank">info@manhattanneons.com</a></td>
+                                                <span style="color:#000000;font-weight:600">Email:&nbsp;</span><a href="mailto:neon@manhattanneons.com" style="color:#000001;text-decoration:none;font-family:Arial,Helvetica,sans-serif" target="_blank">neon@manhattanneons.com</a></td>
                                         </tr>
                                         <tr>
                                             <td style="margin:0.1px;padding:12px 0 0;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001">
