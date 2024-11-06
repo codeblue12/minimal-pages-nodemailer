@@ -17,7 +17,7 @@ const manhattanneons = async (req, res) => {
   try {
     const nameInUpperCase = req.body.name.toUpperCase();
     let mailOptions = {
-      from: "NeonOutShine <neon@neonoutshine.com>",
+      from: "ManhattanNeons <info@manhattanneons.com>",
       to: req.body.email,
       subject: `${nameInUpperCase}, Thank You for Requesting a Custom Signage Quote!`,
       html: ` <p>Dear ${nameInUpperCase},</p>
@@ -31,7 +31,6 @@ const manhattanneons = async (req, res) => {
     
 
     <p><b><u>Your inquiry details are as follows:</u></b></p>
-    <br/>
     <p>
       <span><b>Name:</b> ${nameInUpperCase}</span><br />
       <span><b>Email:</b> ${req.body.email}</span><br />
