@@ -21,16 +21,14 @@ const manhattanneons = async (req, res) => {
       to: req.body.email,
       subject: `${nameInUpperCase}, Thank You for Requesting a Custom Signage Quote!`,
       html: ` <p>Dear ${nameInUpperCase},</p>
-      <br/>
-      <br/>
+      
 
     <p>
       Thank you for reaching out and claiming your 20% discount on custom signage!
       We’re thrilled to help bring your vision to life with a unique design tailored
       to your specifications.
     </p>
-    <br/>
-      <br/>
+    
 
     <p><b><u>Your inquiry details are as follows:</u></b></p>
     <br/>
@@ -66,8 +64,7 @@ const manhattanneons = async (req, res) => {
       Questions or additional info to share? Just hit reply or call our support team at:
       <br /><b>Sales Support: 332-250-4309</b>
     </p>
-    <br/>
-      <br/>
+    
       Best Regards.
 
             `,
