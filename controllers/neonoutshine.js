@@ -12,7 +12,20 @@ const transporter = nodemailer.createTransport({
     pass: "ccnd bcdo hhxy nqpg",
   },
 });
-
+{/* <tr>
+<td
+    style="margin:0.1px;padding:0 0 8px;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001;font-weight:600">
+    <span style="color:#000001">Sales Manager</span></td>
+</tr>
+<tr>
+<td
+    style="margin:0.1px;padding-top:3px;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001">
+    <span
+        style="color:#000000;font-weight:600">Phone:&nbsp;</span><a
+        href="tel:+1%20332%20250%204309"
+        style="color:#000001;text-decoration:none;font-family:Arial,Helvetica,sans-serif"
+        target="_blank">332-250-4309</a></td>
+</tr> */}
 const neonoutshine = async (req, res) => {
   try {
     const nameInUpperCase = req.body.name.toUpperCase();
@@ -58,7 +71,7 @@ const neonoutshine = async (req, res) => {
 
     <p>
       Questions or additional info to share? Just hit reply or call our support team at:
-      <br /><b>Sales Support: 332-250-4309</b>
+     
     </p>
 
       Best Regards. <br/><br/>
@@ -75,20 +88,7 @@ const neonoutshine = async (req, res) => {
                                         valign="top">
                                         <table cellpadding="0" style="border-collapse:collapse">
                                             <tbody>
-                                                <tr>
-                                                    <td
-                                                        style="margin:0.1px;padding:0 0 8px;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001;font-weight:600">
-                                                        <span style="color:#000001">Sales Manager</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td
-                                                        style="margin:0.1px;padding-top:3px;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001">
-                                                        <span
-                                                            style="color:#000000;font-weight:600">Phone:&nbsp;</span><a
-                                                            href="tel:+1%20332%20250%204309"
-                                                            style="color:#000001;text-decoration:none;font-family:Arial,Helvetica,sans-serif"
-                                                            target="_blank">332-250-4309</a></td>
-                                                </tr>
+                                               
                                                 <tr>
                                                     <td
                                                         style="margin:0.1px;padding:0;font:11.5px/14.7px Arial,Helvetica,sans-serif;color:#000001">
